@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Web", "InMemory.Web\InMemory.Web.csproj", "{EEA4AC04-CF15-4547-A476-D2FCD4B68DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDistributedCacheRedisApp.Web", "IDistributedCacheRedisApp.Web\IDistributedCacheRedisApp.Web.csproj", "{4F3F9AE1-3958-4A86-931D-DE5296ED9CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExchangeAPI.Web", "RedisExchangeAPI.Web\RedisExchangeAPI.Web.csproj", "{913D1FA5-430B-4A8F-A63B-2AA3E59BD695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA4AC04-CF15-4547-A476-D2FCD4B68DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA4AC04-CF15-4547-A476-D2FCD4B68DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA4AC04-CF15-4547-A476-D2FCD4B68DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA4AC04-CF15-4547-A476-D2FCD4B68DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3F9AE1-3958-4A86-931D-DE5296ED9CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3F9AE1-3958-4A86-931D-DE5296ED9CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3F9AE1-3958-4A86-931D-DE5296ED9CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3F9AE1-3958-4A86-931D-DE5296ED9CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913D1FA5-430B-4A8F-A63B-2AA3E59BD695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913D1FA5-430B-4A8F-A63B-2AA3E59BD695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913D1FA5-430B-4A8F-A63B-2AA3E59BD695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913D1FA5-430B-4A8F-A63B-2AA3E59BD695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B1C9039-746A-4C65-B13E-02A1CC46091C}
+	EndGlobalSection
+EndGlobal
